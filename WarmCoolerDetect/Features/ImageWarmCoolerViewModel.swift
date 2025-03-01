@@ -39,7 +39,12 @@ final class ImageProcessorViewModel: ObservableObject {
     }
     
     func loadImage(from data: Data) {
-        inputImage = UIImage(data: data)
+        guard var image = UIImage(data: data) else { return }
+        
+        // Force portrait orientation
+        image = image.forcePortraitOrientation()
+        
+        inputImage = image
         processImage()
     }
     
@@ -68,21 +73,25 @@ final class ImageProcessorViewModel: ObservableObject {
     private func processImageAsync(inputImage: UIImage, temperature: Float) async -> UIImage? {
         await withCheckedContinuation { continuation in
             processingQueue.async { [weak self] in
-                guard let self = self else { return }
-
-                Task { 
-                    let adjustedImage = await MainActor.run {
-                        self.openCVWrapper.adjustTemperature(inputImage, temperature: temperature)
-                    }
-                    continuation.resume(returning: adjustedImage)
+                guard let self = self else {
+                    continuation.resume(returning: nil)
+                    return
                 }
+                // Force portrait orientation first
+                let orientedImage = inputImage.forcePortraitOrientation()
+                
+                // Process with OpenCV
+                let adjustedImage = self.openCVWrapper.adjustTemperature(
+                    orientedImage,
+                    temperature: temperature
+                )
+                continuation.resume(returning: adjustedImage)
             }
         }
     }
-
     
     func saveImage() {
-        guard let processedImage = processedImage else {
+        guard let processedImage = processedImage?.forcePortraitOrientation() else {
             showAlert(message: DataConstans.alertMessageNoImageToSave)
             return
         }

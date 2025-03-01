@@ -8,7 +8,7 @@
 struct DataConstans {
     
     //View
-    static let navigationTitle = "Color Temperature Adjuster"
+    static let navigationTitle = "Color Temperature"
     static let imageSaved = "Image Saved"
     static let alertButtonTitle = "OK"
     static let textCooler = "Cooler"

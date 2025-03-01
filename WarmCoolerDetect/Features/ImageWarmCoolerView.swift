@@ -15,6 +15,7 @@ struct ImageWarmCoolerView: View {
         NavigationView {
             VStack {
                 imageView
+                Spacer()
                 controlsView
                 buttonsView
             }
@@ -82,11 +83,10 @@ struct ImageWarmCoolerView: View {
     private var processingOverlay: some View {
         if viewModel.isProcessing {
             ZStack {
-                Color.black.opacity(0.4)
                 ProgressView()
                     .scaleEffect(1.5)
                     .padding(20)
-                    .background(Color.secondary.opacity(0.7))
+                    .background(Color.secondary)
                     .cornerRadius(10)
             }
         }
@@ -94,7 +94,6 @@ struct ImageWarmCoolerView: View {
     
     private func loadImage(from item: PhotosPickerItem?) async {
         guard let item = item else { return }
-        
         do {
             guard let data = try await item.loadTransferable(type: Data.self) else {
                 throw ImageError.loadFailed
