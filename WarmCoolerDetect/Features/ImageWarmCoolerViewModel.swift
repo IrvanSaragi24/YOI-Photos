@@ -28,6 +28,10 @@ final class ImageProcessorViewModel: ObservableObject {
         setupBindings()
     }
     
+    deinit {
+        processingTask?.cancel()
+    }
+    
     private func setupBindings() {
         $temperatureValue
             .dropFirst()
