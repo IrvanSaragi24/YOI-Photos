@@ -25,7 +25,8 @@ This iOS application allows users to adjust the color temperature of a JPEG imag
 ### 1. Clone the Repository
 ```
 git clone https://github.com/IrvanSaragi24/WarmCoolerImageApp.git
-cd WarmCoolerDetect
+cd WarmCoolerImageApp
+cd WarmCoolerDetectcd 
 ```
 
 ### 2. Install OpenCV
@@ -45,6 +46,7 @@ chmod +x install_opencv.sh
 
 ### 3. Open the Project
 ```
+cd ..
 open WarmCoolerDetect.xcodeproj
 ```
 
