@@ -59,3 +59,6 @@ open WarmCoolerDetect.xcodeproj
 2. Select a JPEG image to load
 3. Adjust the temperature using the slider (positive values make it warmer, negative values make it cooler)
 4. Save the adjusted image to a specified output path
+
+## Documentation : Image Temperature Adjustment iOS App
+![Documentation](https://github.com/user-attachments/assets/6915cdda-bb60-4de1-9936-d8759dee7b41)
