@@ -45,7 +45,7 @@ chmod +x install_opencv.sh
 
 ### 3. Open the Project
 ```
-open ImageTemperatureAdjustment.xcodeproj
+open WarmCoolerDetect.xcodeproj
 ```
 
 ### 4. Build and Run
