@@ -14,7 +14,7 @@ struct ImagePlaceholderView: View {
                 .font(.system(size: 80))
                 .padding()
                 .foregroundColor(.gray)
-            Text(DataConstans.noImageSelectedTitle)
+            Text(Constans.noImageSelectedTitle)
                 .font(.title2)
                 .foregroundColor(.gray)
         }
