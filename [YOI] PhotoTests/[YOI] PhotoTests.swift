@@ -8,7 +8,7 @@
 import XCTest
 @testable import WarmCoolerDetect
 
-final class WarmCoolerDetectTests: XCTestCase {
+final class PhotoTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

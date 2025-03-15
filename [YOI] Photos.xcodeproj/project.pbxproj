@@ -24,25 +24,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E2B17B1B2D72EBA200C78345 /* WarmCoolerDetect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarmCoolerDetect.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2B17B2B2D72EBA300C78345 /* WarmCoolerDetectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarmCoolerDetectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2B17B352D72EBA300C78345 /* WarmCoolerDetectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarmCoolerDetectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B17B1B2D72EBA200C78345 /* [YOI] Photos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "[YOI] Photos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B17B2B2D72EBA300C78345 /* [YOI] PhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "[YOI] PhotosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B17B352D72EBA300C78345 /* [YOI] PhotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "[YOI] PhotosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E2B17B1D2D72EBA200C78345 /* WarmCoolerDetect */ = {
+		E2B17B1D2D72EBA200C78345 /* [YOI] Photos */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WarmCoolerDetect;
+			path = "[YOI] Photos";
 			sourceTree = "<group>";
 		};
-		E2B17B2E2D72EBA300C78345 /* WarmCoolerDetectTests */ = {
+		E2B17B2E2D72EBA300C78345 /* [YOI] PhotoTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WarmCoolerDetectTests;
+			path = "[YOI] PhotoTests";
 			sourceTree = "<group>";
 		};
-		E2B17B382D72EBA300C78345 /* WarmCoolerDetectUITests */ = {
+		E2B17B382D72EBA300C78345 /* [YOI] PhotoUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WarmCoolerDetectUITests;
+			path = "[YOI] PhotoUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		E2B17B122D72EBA200C78345 = {
 			isa = PBXGroup;
 			children = (
-				E2B17B1D2D72EBA200C78345 /* WarmCoolerDetect */,
-				E2B17B2E2D72EBA300C78345 /* WarmCoolerDetectTests */,
-				E2B17B382D72EBA300C78345 /* WarmCoolerDetectUITests */,
+				E2B17B1D2D72EBA200C78345 /* [YOI] Photos */,
+				E2B17B2E2D72EBA300C78345 /* [YOI] PhotoTests */,
+				E2B17B382D72EBA300C78345 /* [YOI] PhotoUITests */,
 				E2B17B1C2D72EBA200C78345 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		E2B17B1C2D72EBA200C78345 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E2B17B1B2D72EBA200C78345 /* WarmCoolerDetect.app */,
-				E2B17B2B2D72EBA300C78345 /* WarmCoolerDetectTests.xctest */,
-				E2B17B352D72EBA300C78345 /* WarmCoolerDetectUITests.xctest */,
+				E2B17B1B2D72EBA200C78345 /* [YOI] Photos.app */,
+				E2B17B2B2D72EBA300C78345 /* [YOI] PhotosTests.xctest */,
+				E2B17B352D72EBA300C78345 /* [YOI] PhotosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E2B17B1A2D72EBA200C78345 /* WarmCoolerDetect */ = {
+		E2B17B1A2D72EBA200C78345 /* [YOI] Photos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2B17B3F2D72EBA300C78345 /* Build configuration list for PBXNativeTarget "WarmCoolerDetect" */;
+			buildConfigurationList = E2B17B3F2D72EBA300C78345 /* Build configuration list for PBXNativeTarget "[YOI] Photos" */;
 			buildPhases = (
 				E2B17B172D72EBA200C78345 /* Sources */,
 				E2B17B182D72EBA200C78345 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E2B17B1D2D72EBA200C78345 /* WarmCoolerDetect */,
+				E2B17B1D2D72EBA200C78345 /* [YOI] Photos */,
 			);
-			name = WarmCoolerDetect;
+			name = "[YOI] Photos";
 			packageProductDependencies = (
 			);
 			productName = WarmCoolerDetect;
-			productReference = E2B17B1B2D72EBA200C78345 /* WarmCoolerDetect.app */;
+			productReference = E2B17B1B2D72EBA200C78345 /* [YOI] Photos.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E2B17B2A2D72EBA300C78345 /* WarmCoolerDetectTests */ = {
+		E2B17B2A2D72EBA300C78345 /* [YOI] PhotosTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2B17B422D72EBA300C78345 /* Build configuration list for PBXNativeTarget "WarmCoolerDetectTests" */;
+			buildConfigurationList = E2B17B422D72EBA300C78345 /* Build configuration list for PBXNativeTarget "[YOI] PhotosTests" */;
 			buildPhases = (
 				E2B17B272D72EBA300C78345 /* Sources */,
 				E2B17B282D72EBA300C78345 /* Frameworks */,
@@ -131,18 +131,18 @@
 				E2B17B2D2D72EBA300C78345 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E2B17B2E2D72EBA300C78345 /* WarmCoolerDetectTests */,
+				E2B17B2E2D72EBA300C78345 /* [YOI] PhotoTests */,
 			);
-			name = WarmCoolerDetectTests;
+			name = "[YOI] PhotosTests";
 			packageProductDependencies = (
 			);
 			productName = WarmCoolerDetectTests;
-			productReference = E2B17B2B2D72EBA300C78345 /* WarmCoolerDetectTests.xctest */;
+			productReference = E2B17B2B2D72EBA300C78345 /* [YOI] PhotosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E2B17B342D72EBA300C78345 /* WarmCoolerDetectUITests */ = {
+		E2B17B342D72EBA300C78345 /* [YOI] PhotosUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2B17B452D72EBA300C78345 /* Build configuration list for PBXNativeTarget "WarmCoolerDetectUITests" */;
+			buildConfigurationList = E2B17B452D72EBA300C78345 /* Build configuration list for PBXNativeTarget "[YOI] PhotosUITests" */;
 			buildPhases = (
 				E2B17B312D72EBA300C78345 /* Sources */,
 				E2B17B322D72EBA300C78345 /* Frameworks */,
@@ -154,13 +154,13 @@
 				E2B17B372D72EBA300C78345 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E2B17B382D72EBA300C78345 /* WarmCoolerDetectUITests */,
+				E2B17B382D72EBA300C78345 /* [YOI] PhotoUITests */,
 			);
-			name = WarmCoolerDetectUITests;
+			name = "[YOI] PhotosUITests";
 			packageProductDependencies = (
 			);
 			productName = WarmCoolerDetectUITests;
-			productReference = E2B17B352D72EBA300C78345 /* WarmCoolerDetectUITests.xctest */;
+			productReference = E2B17B352D72EBA300C78345 /* [YOI] PhotosUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -179,15 +179,17 @@
 					};
 					E2B17B2A2D72EBA300C78345 = {
 						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
 						TestTargetID = E2B17B1A2D72EBA200C78345;
 					};
 					E2B17B342D72EBA300C78345 = {
 						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
 						TestTargetID = E2B17B1A2D72EBA200C78345;
 					};
 				};
 			};
-			buildConfigurationList = E2B17B162D72EBA200C78345 /* Build configuration list for PBXProject "WarmCoolerDetect" */;
+			buildConfigurationList = E2B17B162D72EBA200C78345 /* Build configuration list for PBXProject "[YOI] Photos" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -201,9 +203,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E2B17B1A2D72EBA200C78345 /* WarmCoolerDetect */,
-				E2B17B2A2D72EBA300C78345 /* WarmCoolerDetectTests */,
-				E2B17B342D72EBA300C78345 /* WarmCoolerDetectUITests */,
+				E2B17B1A2D72EBA200C78345 /* [YOI] Photos */,
+				E2B17B2A2D72EBA300C78345 /* [YOI] PhotosTests */,
+				E2B17B342D72EBA300C78345 /* [YOI] PhotosUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,12 +261,12 @@
 /* Begin PBXTargetDependency section */
 		E2B17B2D2D72EBA300C78345 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E2B17B1A2D72EBA200C78345 /* WarmCoolerDetect */;
+			target = E2B17B1A2D72EBA200C78345 /* [YOI] Photos */;
 			targetProxy = E2B17B2C2D72EBA300C78345 /* PBXContainerItemProxy */;
 		};
 		E2B17B372D72EBA300C78345 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E2B17B1A2D72EBA200C78345 /* WarmCoolerDetect */;
+			target = E2B17B1A2D72EBA200C78345 /* [YOI] Photos */;
 			targetProxy = E2B17B362D72EBA300C78345 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -397,22 +399,26 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WarmCoolerDetect/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"[YOI] Photos/Preview Content\"";
 				DEVELOPMENT_TEAM = NYP6NH36S6;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WarmCoolerDetect/Library",
+					"$(PROJECT_DIR)/[YOI]\\ Photos/Library",
+					"$(PROJECT_DIR)/[YOI]\\ Photos/Library",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/WarmCoolerDetect/Bridge/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/[YOI] Photos/Bridge/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need Permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -421,7 +427,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = irvan.WarmCoolerDetect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "WarmCoolerDetect/Bridge/WarmCoolerDetect-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "[YOI] Photos/Bridge/YOI_Photos-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -436,22 +442,26 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WarmCoolerDetect/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"[YOI] Photos/Preview Content\"";
 				DEVELOPMENT_TEAM = NYP6NH36S6;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WarmCoolerDetect/Library",
+					"$(PROJECT_DIR)/[YOI]\\ Photos/Library",
+					"$(PROJECT_DIR)/[YOI]\\ Photos/Library",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/WarmCoolerDetect/Bridge/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/[YOI] Photos/Bridge/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need Permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +470,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = irvan.WarmCoolerDetect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "WarmCoolerDetect/Bridge/WarmCoolerDetect-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "[YOI] Photos/Bridge/YOI_Photos-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -470,6 +480,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NYP6NH36S6;
@@ -479,9 +490,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = irvan.WarmCoolerDetectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "[YOI] Photos/Bridge/[YOI] PhotosTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarmCoolerDetect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WarmCoolerDetect";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/[YOI] Photos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/[YOI] Photos";
 			};
 			name = Debug;
 		};
@@ -489,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NYP6NH36S6;
@@ -498,15 +512,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = irvan.WarmCoolerDetectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "[YOI] Photos/Bridge/[YOI] PhotosTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarmCoolerDetect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WarmCoolerDetect";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/[YOI] Photos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/[YOI] Photos";
 			};
 			name = Release;
 		};
 		E2B17B462D72EBA300C78345 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NYP6NH36S6;
@@ -515,6 +531,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = irvan.WarmCoolerDetectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "[YOI] Photos/Bridge/[YOI] PhotosUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = WarmCoolerDetect;
@@ -524,6 +542,7 @@
 		E2B17B472D72EBA300C78345 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NYP6NH36S6;
@@ -532,6 +551,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = irvan.WarmCoolerDetectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "[YOI] Photos/Bridge/[YOI] PhotosUITests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = WarmCoolerDetect;
@@ -541,7 +561,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E2B17B162D72EBA200C78345 /* Build configuration list for PBXProject "WarmCoolerDetect" */ = {
+		E2B17B162D72EBA200C78345 /* Build configuration list for PBXProject "[YOI] Photos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2B17B3D2D72EBA300C78345 /* Debug */,
@@ -550,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2B17B3F2D72EBA300C78345 /* Build configuration list for PBXNativeTarget "WarmCoolerDetect" */ = {
+		E2B17B3F2D72EBA300C78345 /* Build configuration list for PBXNativeTarget "[YOI] Photos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2B17B402D72EBA300C78345 /* Debug */,
@@ -559,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2B17B422D72EBA300C78345 /* Build configuration list for PBXNativeTarget "WarmCoolerDetectTests" */ = {
+		E2B17B422D72EBA300C78345 /* Build configuration list for PBXNativeTarget "[YOI] PhotosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2B17B432D72EBA300C78345 /* Debug */,
@@ -568,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2B17B452D72EBA300C78345 /* Build configuration list for PBXNativeTarget "WarmCoolerDetectUITests" */ = {
+		E2B17B452D72EBA300C78345 /* Build configuration list for PBXNativeTarget "[YOI] PhotosUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2B17B462D72EBA300C78345 /* Debug */,

@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class WarmCoolerDetectUITestsLaunchTests: XCTestCase {
+final class PhotoUITestsUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

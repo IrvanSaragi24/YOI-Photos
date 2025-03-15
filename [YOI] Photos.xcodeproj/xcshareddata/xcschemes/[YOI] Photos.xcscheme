@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E2B17B1A2D72EBA200C78345"
-               BuildableName = "WarmCoolerDetect.app"
-               BlueprintName = "WarmCoolerDetect"
-               ReferencedContainer = "container:WarmCoolerDetect.xcodeproj">
+               BuildableName = "[YOI] Photos.app"
+               BlueprintName = "[YOI] Photos"
+               ReferencedContainer = "container:[YOI] Photos.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,9 +36,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E2B17B2A2D72EBA300C78345"
-               BuildableName = "WarmCoolerDetectTests.xctest"
-               BlueprintName = "WarmCoolerDetectTests"
-               ReferencedContainer = "container:WarmCoolerDetect.xcodeproj">
+               BuildableName = "[YOI] PhotosTests.xctest"
+               BlueprintName = "[YOI] PhotosTests"
+               ReferencedContainer = "container:[YOI] Photos.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E2B17B342D72EBA300C78345"
-               BuildableName = "WarmCoolerDetectUITests.xctest"
-               BlueprintName = "WarmCoolerDetectUITests"
-               ReferencedContainer = "container:WarmCoolerDetect.xcodeproj">
+               BuildableName = "[YOI] PhotosUITests.xctest"
+               BlueprintName = "[YOI] PhotosUITests"
+               ReferencedContainer = "container:[YOI] Photos.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -69,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E2B17B1A2D72EBA200C78345"
-            BuildableName = "WarmCoolerDetect.app"
-            BlueprintName = "WarmCoolerDetect"
-            ReferencedContainer = "container:WarmCoolerDetect.xcodeproj">
+            BuildableName = "[YOI] Photos.app"
+            BlueprintName = "[YOI] Photos"
+            ReferencedContainer = "container:[YOI] Photos.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -86,9 +86,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E2B17B1A2D72EBA200C78345"
-            BuildableName = "WarmCoolerDetect.app"
-            BlueprintName = "WarmCoolerDetect"
-            ReferencedContainer = "container:WarmCoolerDetect.xcodeproj">
+            BuildableName = "[YOI] Photos.app"
+            BlueprintName = "[YOI] Photos"
+            ReferencedContainer = "container:[YOI] Photos.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
