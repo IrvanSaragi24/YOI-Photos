@@ -17,7 +17,7 @@ strings:
     - templateName: structured-swift5
       output: '[YOI] Photos/CoreResource/Strings+Generated.swift'
       params:
-        enumName: StringConstants
+        enumName: Constans
 
 xcassets:
   inputs:

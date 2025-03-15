@@ -407,6 +407,7 @@
 					"$(PROJECT_DIR)/WarmCoolerDetect/Library",
 					"$(PROJECT_DIR)/[YOI]\\ Photos/Library",
 					"$(PROJECT_DIR)/[YOI]\\ Photos/Library",
+					"$(PROJECT_DIR)/[YOI]\\ Photos/Library",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/[YOI] Photos/Bridge/PrefixHeader.pch";
@@ -448,6 +449,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WarmCoolerDetect/Library",
+					"$(PROJECT_DIR)/[YOI]\\ Photos/Library",
 					"$(PROJECT_DIR)/[YOI]\\ Photos/Library",
 					"$(PROJECT_DIR)/[YOI]\\ Photos/Library",
 				);

@@ -19,9 +19,9 @@ struct ImageWarmCoolerView: View {
                 controlsView
                 buttonsView
             }
-            .navigationTitle(DataConstans.navigationTitle)
-            .alert(DataConstans.imageSaved, isPresented: $viewModel.showAlert) {
-                Button(DataConstans.alertButtonTitle) { }
+            .navigationTitle(Constans.navigationTitle)
+            .alert(Constans.imageSaved, isPresented: $viewModel.showAlert) {
+                Button(Constans.alertButtonTitle) { }
             } message: {
                 Text(viewModel.alertMessage)
             }
@@ -45,15 +45,15 @@ struct ImageWarmCoolerView: View {
     private var controlsView: some View {
         VStack {
             HStack {
-                Text(DataConstans.textCooler)
+                Text(Constans.textCooler)
                     .foregroundColor(.blue)
                 Slider(value: $viewModel.temperatureValue, in: -100...100, step: 1)
-                Text(DataConstans.textWarmer)
+                Text(Constans.textWarmer)
                     .foregroundColor(.red)
             }
             .padding(.horizontal)
             
-            Text("\(DataConstans.textTemperature) \(Int(viewModel.temperatureValue))")
+            Text("\(Constans.textTemperature) \(Int(viewModel.temperatureValue))")
                 .padding(.top, 5)
         }
     }
@@ -61,7 +61,7 @@ struct ImageWarmCoolerView: View {
     private var buttonsView: some View {
         HStack(spacing: 20) {
             PhotosPicker(selection: $photoPickerItem, matching: .images) {
-                Label(DataConstans.labelSelectImage, systemImage: "photo.on.rectangle")
+                Label(Constans.labelSelectImage, systemImage: "photo.on.rectangle")
                     .buttonStyle()
             }
             .onChange(of: photoPickerItem) {_, newItem in
@@ -71,7 +71,7 @@ struct ImageWarmCoolerView: View {
             }
             
             Button(action: viewModel.saveImage) {
-                Label(DataConstans.labelSaveImage, systemImage: "square.and.arrow.down")
+                Label(Constans.labelSaveImage, systemImage: "square.and.arrow.down")
                     .buttonStyle()
             }
             .disabled(viewModel.processedImage == nil)
@@ -100,7 +100,7 @@ struct ImageWarmCoolerView: View {
             }
             viewModel.loadImage(from: data)
         } catch {
-            viewModel.showAlert(message: "\(DataConstans.ErrorLoadingImage) \(error.localizedDescription)")
+            viewModel.showAlert(message: "\(Constans.errorLoadingImage) \(error.localizedDescription)")
         }
     }
 }

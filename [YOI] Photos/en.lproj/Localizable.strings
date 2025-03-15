@@ -6,7 +6,21 @@
   
 */
 
-"welcome_message" = "Welcome to YOI Photos!";
-"error_network" = "No internet connection.";
-"login_success" = "Login successful!";
-"Hello world" = "helloo dunia";
+"navigationTitle" = "Color Temperature";
+"imageSaved" = "Image Saved";
+"alertButtonTitle" = "OK";
+"textCooler" = "Cooler";
+"textWarmer" = "Warmer";
+"textTemperature" = "Temperature";
+"labelSelectImage" = "Select Image";
+"labelSaveImage" = "Save Image";
+"ErrorLoadingImage" = "Error loading image: ";
+
+"imageProcessingQueueName" = "image.processing.queue";
+"alertMessageNoImageToSave" = "No processed image to save";
+"alertMessageNoPhotoLibraryAccess" = "Please enable photo library access in settings";
+"imageSavedSuccessfully" = "Image saved successfully";
+"errorSavingImage" = "Error saving image: ";
+
+"noImageSelectedTitle" = "No Image Selected";
+

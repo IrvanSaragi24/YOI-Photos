@@ -21,7 +21,7 @@ final class ImageProcessorViewModel: ObservableObject {
     private var processingTask: Task<Void, Never>?
     
     // Throttle processing to avoid excessive updates
-    private let processingQueue = DispatchQueue(label: DataConstans.imageProcessingQueueName, qos: .userInitiated)
+    private let processingQueue = DispatchQueue(label: Constans.imageProcessingQueueName, qos: .userInitiated)
     private var cancellables = Set<AnyCancellable>()
     
     init() {
@@ -96,13 +96,13 @@ final class ImageProcessorViewModel: ObservableObject {
     
     func saveImage() {
         guard let processedImage = processedImage?.forcePortraitOrientation() else {
-            showAlert(message: DataConstans.alertMessageNoImageToSave)
+            showAlert(message: Constans.alertMessageNoImageToSave)
             return
         }
         
         PHPhotoLibrary.requestAuthorization(for: .addOnly) { [weak self] status in
             guard status == .authorized else {
-                self?.showAlert(message: DataConstans.alertMessageNoPhotoLibraryAccess)
+                self?.showAlert(message: Constans.alertMessageNoPhotoLibraryAccess)
                 return
             }
             
@@ -110,8 +110,8 @@ final class ImageProcessorViewModel: ObservableObject {
                 PHAssetChangeRequest.creationRequestForAsset(from: processedImage)
             }) { success, error in
                 let message = success ?
-                DataConstans.imageSavedSuccessfully :
-                "\(DataConstans.errorSavingImage) \(error?.localizedDescription ?? "Unknown error")"
+                Constans.imageSavedSuccessfully :
+                "\(Constans.errorSavingImage) \(error?.localizedDescription ?? "Unknown error")"
                 
                 self?.showAlert(message: message)
             }
