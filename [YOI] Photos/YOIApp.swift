@@ -8,7 +8,12 @@
 import SwiftUI
 
 @main
-struct WarmCoolerDetectApp: App {
+struct YOIApp: App {
+    
+    init() {
+        FontFamily.registerAllCustomFonts() // Daftarkan semua font kustom
+    }
+    
     var body: some Scene {
         WindowGroup {
             ImageWarmCoolerView()

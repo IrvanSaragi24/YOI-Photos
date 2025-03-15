@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  [YOI] Photos
+
+  Created by Irvan P. Saragi on 15/03/25.
+  
+*/
+
+"welcome_message" = "Welcome to YOI Photos!";
+"error_network" = "No internet connection.";
+"login_success" = "Login successful!";
+"Hello world" = "helloo dunia";
