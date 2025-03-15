@@ -10,11 +10,19 @@ import AVFoundation
 
 struct SplashScreen: View {
     let audio = AudioPlayer()
-    
+    @State private var isSplashed: Bool = false
+
     var body: some View {
         ZStack {
-            SplashView(audio: audio)
-                .preferredColorScheme(.dark)
+            if isSplashed {
+                SplashView(audio: audio)
+                    .preferredColorScheme(.dark)
+            }
+        }
+        .onAppear {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                isSplashed = true
+            }
         }
     }
 }
@@ -24,19 +32,10 @@ struct SplashView: View {
     @State private var text: String = "  I"
     @State private var scale: CGFloat = 0.8
     @State private var isSplashed: Bool = false
-    @State private var isComingSoon: Bool = false
+//    @State private var isComingSoon: Bool = false
     @Namespace var namespace
-    
-    var comingSoon: some View {
-        ZStack {
-            Color.black.opacity(0.8)
-            
-            Text("COMING SOON")
-                .font(.custom(FontFamily.NothingFont5x7.regular.name, size: 30))
-        }
-        .ignoresSafeArea()
-    }
-    
+
+
     var titleSequence: some View {
         Text(text)
             .scaleEffect(isSplashed ? 0.7 : scale)
@@ -79,10 +78,6 @@ struct SplashView: View {
                 }
             }
             .padding(.top, 60)
-            
-            if isComingSoon {
-                comingSoon
-            }
         }
         //.monospaced()
         .onAppear {
@@ -91,11 +86,6 @@ struct SplashView: View {
             DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
                 withAnimation(.spring(duration: 1.5)) {
                     isSplashed = true
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                        withAnimation(.spring(duration: 0.5)) {
-                            isComingSoon = true
-                        }
-                    }
                 }
             }
         }
