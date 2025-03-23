@@ -16,7 +16,9 @@ struct YOIApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ImageWarmCoolerView()
+            PhotoEdit()
         }
     }
 }
+
+

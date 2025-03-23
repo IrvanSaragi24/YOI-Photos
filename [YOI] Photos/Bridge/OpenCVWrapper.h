@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface OpenCVWrapper : NSObject
 
 - (UIImage *)adjustTemperature:(UIImage *)image temperature:(float)temperature;
+- (UIImage *)adjustContrast:(UIImage *)image contrast:(float)contrast objectsOnly:(BOOL)objectsOnly;
 
 @end
 
