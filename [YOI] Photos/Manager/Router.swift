@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 
 enum Destination: Hashable {
+    case photoEditor
     case contrast
     case enhancer
     case saturation
@@ -39,6 +40,8 @@ class ViewFactory {
   @ViewBuilder
   static func viewForDestination(_ destination: Destination) -> some View {
     switch destination {
+    case .photoEditor:
+        PhotoEdit()
     case .contrast:
         ContrastEditorView()
     case .saturation:
