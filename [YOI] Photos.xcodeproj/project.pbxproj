@@ -400,11 +400,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"[YOI] Photos/Preview Content\"";
-				DEVELOPMENT_TEAM = NYP6NH36S6;
+				DEVELOPMENT_TEAM = B34FJD89YP;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WarmCoolerDetect/Library",
+					"$(PROJECT_DIR)/[YOI]\\ Photos/Library",
 					"$(PROJECT_DIR)/[YOI]\\ Photos/Library",
 					"$(PROJECT_DIR)/[YOI]\\ Photos/Library",
 					"$(PROJECT_DIR)/[YOI]\\ Photos/Library",
@@ -447,11 +448,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"[YOI] Photos/Preview Content\"";
-				DEVELOPMENT_TEAM = NYP6NH36S6;
+				DEVELOPMENT_TEAM = B34FJD89YP;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WarmCoolerDetect/Library",
+					"$(PROJECT_DIR)/[YOI]\\ Photos/Library",
 					"$(PROJECT_DIR)/[YOI]\\ Photos/Library",
 					"$(PROJECT_DIR)/[YOI]\\ Photos/Library",
 					"$(PROJECT_DIR)/[YOI]\\ Photos/Library",
